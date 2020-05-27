@@ -17,6 +17,10 @@ Activate the enviroment using:
 Install the required packages using:
 `pip install -r requirements.txt`
 
+### Migrate The Models
+Migrate the models to the database using:
+`python manage.py migrate`
+
 ### Run The Server
 Run the server using:
 `python manage.py runserver`
