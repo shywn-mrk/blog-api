@@ -28,7 +28,7 @@ Run the server using:
 
 ## Routes
 
-### POSTS
+### Posts
 
 #### All The Posts
 `GET /api/posts`
