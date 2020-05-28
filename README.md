@@ -2,6 +2,7 @@
 A simple blog api for a blog :)
 
 ## Running The Project
+
 ### Clone The Project
 `git clone https://github.com/shywn-mrk/blog-api.git`
 
@@ -24,3 +25,23 @@ Migrate the models to the database using:
 ### Run The Server
 Run the server using:
 `python manage.py runserver`
+
+## Routes
+
+### POSTS
+
+#### All The Posts
+`GET /api/posts`
+
+#### Single Post
+`/api/posts/:id`
+Supported Methods: GET, POST, PUT, PATCH, DELETE
+
+### Categories
+
+#### All The Categories
+`GET /api/categories`
+
+#### Single Category
+`GET /api/categories/:id`
+Supported Methods: GET, POST, PUT, PATCH, DELETE
