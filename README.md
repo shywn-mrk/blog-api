@@ -28,20 +28,32 @@ Run the server using:
 
 ## Routes
 
+All the routes are protected except for signup and login, this API uses token authentication.
+
 ### Posts
 
 #### All The Posts
 `GET /api/posts`
 
 #### Single Post
-`/api/posts/:id`
+`/api/posts/:id`<br/>
 Supported Methods: GET, POST, PUT, PATCH, DELETE
+
+---
 
 ### Categories
 
 #### All The Categories
-`GET /api/categories`
+`/api/categories`
 
 #### Single Category
-`GET /api/categories/:id`
+`/api/categories/:id`<br/>
 Supported Methods: GET, POST, PUT, PATCH, DELETE
+
+### Login
+`POST /api/login`<br/>
+Send email and username fields to this routes for authentication and getting your token back.
+
+### SignUp
+`POST /api/signup`<br/>
+Send email and username fields to this routes to singup and getting a token.
