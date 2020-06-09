@@ -53,11 +53,11 @@ Supported Methods: GET, POST, PUT, PATCH, DELETE
 ---
 
 ### Login
-`POST /api/login`<br/>
+`POST /api/accounts/login`<br/>
 Send email and username fields to this routes for authentication and getting your token back.
 
 ---
 
 ### SignUp
-`POST /api/signup`<br/>
+`POST /api/accounts/signup`<br/>
 Send email and username fields to this routes to singup and getting a token.
