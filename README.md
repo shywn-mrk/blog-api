@@ -22,6 +22,10 @@ Install the required packages using:
 Migrate the models to the database using:
 `python manage.py migrate`
 
+### Create a Super User
+Create a super user using:
+`python manage.py createsuperuser`
+
 ### Run The Server
 Run the server using:
 `python manage.py runserver`
@@ -29,6 +33,13 @@ Run the server using:
 ## Routes
 
 All the routes are protected except for signup and login, this API uses token authentication.
+
+
+### Admin Panel
+you can access the django admin panel with this route (only super users can login!):<br/>
+`GET /admin`
+
+---
 
 ### Posts
 
