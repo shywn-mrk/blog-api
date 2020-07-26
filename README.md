@@ -19,6 +19,8 @@ Install the required packages using:
 `pip install -r requirements.txt`
 
 ### Migrate The Models
+Make the migrations using:
+`python manage.py makemigrations`
 Migrate the models to the database using:
 `python manage.py migrate`
 
