@@ -20,7 +20,7 @@ Install the required packages using:
 
 ### Migrate The Models
 Make the migrations using:
-`python manage.py makemigrations`
+`python manage.py makemigrations`<br/>
 Migrate the models to the database using:
 `python manage.py migrate`
 
