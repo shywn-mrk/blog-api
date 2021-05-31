@@ -1,35 +1,33 @@
 # Blog API
 A simple blog api for a blog :)
 
-## Running The Project
+## Installation
+Make sure you have Python >= 3.8 installed before following these steps.
 
-### Clone The Project
-`git clone https://github.com/shywn-mrk/blog-api.git`
+1 - Clone the project:
+`git clone https://github.com/shywn-mrk/shiny-winner.git`
 
-### Create The Enviroment
-In the root of the project run:
+2 - Create a virtual environment:
 `python -m venv env`
 
-### Activating The Enviroment
-Activate the enviroment using:
-`source env/Scripts/activate`
+3 - Activate the virtual environment:
+- Windows:
+`env/Scripts/activate`
+- Mac/Linux:
+`source env/bin/activate`
 
-### Install The Packages
-Install the required packages using:
+4 - Install the required packages:
 `pip install -r requirements.txt`
 
-### Migrate The Models
-Make the migrations using:
-`python manage.py makemigrations`<br/>
-Migrate the models to the database using:
-`python manage.py migrate`
-
-### Create a Super User
-Create a super user using:
+5 - Creating migrations and migrate:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+6 - Create a super user:
 `python manage.py createsuperuser`
 
-### Run The Server
-Run the server using:
+7 - Run the server:
 `python manage.py runserver`
 
 ## Routes
